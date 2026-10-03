@@ -1,0 +1,14 @@
+{
+  "name": "elina-houses-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/domain.test.js",
+    "serve": "python3 -m http.server 4173",
+    "test:browser": "node tests/browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
